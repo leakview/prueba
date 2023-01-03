@@ -1,0 +1,44 @@
+###
+
+GET http://localhost:8000/api/categoria/ HTTP/1.1
+
+###
+
+GET http://localhost:8000/api/show/12221 HTTP/1.1
+
+###
+
+POST http://localhost:8000/api/categoria/insert/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "jorge",
+    "apellidos": "mora",
+    "carnet": "11111",
+    "grado": 78,
+    "nombre_padre": "raul",
+    "nombre_madre": "andrea",
+    "edad": 12,
+    "nota_f": 7
+}
+
+
+###
+
+DELETE http://localhost:8000/api/categoria/delete/4 HTTP/1.1
+
+###
+
+PUT http://localhost:8000/api/categoria/update/8 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "hector",
+    "apellidos": "mora",
+    "carnet": "12221",
+    "grado": 80,
+    "nombre_padre": "raul",
+    "nombre_madre": "andrea",
+    "edad": 12,
+    "nota_f": 7
+  }
