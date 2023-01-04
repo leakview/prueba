@@ -7,10 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <br><br>
+    <br>
+    <img src="https://yt3.googleusercontent.com/ytc/AMLnZu_7KRKTzrs9v4VXQucW7wo9VQKRRsgUJvloaHu5=s900-c-k-c0x00ffffff-no-rj" 
+    width="100px" style="margin-right:20px;margin-top:20px" align="right" alt="">
+
     <h1 style="text-transform:uppercase">Reporte de alumno</h1>
 
     @foreach( $alumnos as $alumno)
+
+    
 
 <h2 style="text-transform:uppercase">{{ $alumno ->nombre }}</h2>
    <hr style="border-top: 1px solid red;">    
@@ -24,7 +29,9 @@
 <h3 style=" margin-left: 10px;" style="text-transform: capitalize;">  <b>Edad: </b>{{ $alumno ->edad }}</h3>
 <h3 style=" margin-left: 10px;" style="text-transform: capitalize;">  <b>Nota Final:</b> {{ $alumno ->nota_f }}</h3>
 <h3 style=" margin-left: 10px;" style="text-transform: capitalize;">  <b>Nombre del profesor: </b>{{ $alumno ->profe_nombre }}</h3>    
-        @endforeach 
+   
+
+@endforeach 
 
 </body>
 </html>

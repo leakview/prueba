@@ -54,7 +54,7 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a  href="pruebatec/exportcsv" class="dropdown-item">EXCEL</a>
+                                    <a  href="pruebatec/exportexcel" class="dropdown-item">EXCEL</a>
                                     <a  href="pruebatec/exportpdf" class="dropdown-item">PDF</a>
                                     <a  href="pruebatec/exportcsv" class="dropdown-item">CSV</a>
                                 </div>

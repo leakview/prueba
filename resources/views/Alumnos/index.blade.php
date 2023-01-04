@@ -90,7 +90,7 @@
         </tr>
     </tfoot> -->
 </table>
-
+{!! $alumnos->links() !!}
 </div>
 
 

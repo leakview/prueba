@@ -22,7 +22,10 @@ class AlumnosController extends Controller
     public function index()
     {
         
-        $datos['alumnos']=DB::select('select * from `alumnos`', []);
+        /* $datos['alumnos']=DB::select('select * from `alumnos`', [])->paginate(5);
+        return view('alumnos.index', $datos); */
+
+        $datos['alumnos']=alumnos::paginate(3);
         return view('alumnos.index', $datos);
     }
 
